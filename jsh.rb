@@ -1,7 +1,7 @@
 class Jsh < Formula
   desc ""
   homepage ""
-  url "git@github.com:KI-labs/ki-hacks-jsh.git"
+  url "https://github.com/KI-labs/ki-hacks-jsh.git"
 
   # depends_on "cmake" => :build
 
