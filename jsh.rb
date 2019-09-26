@@ -9,7 +9,7 @@ class Jsh < Formula
 
   def install
     system "ls"
-    system "mv ./ki-hacks-jsh/jsh /usr/bin"
+    system "mv #{prefix}/jsh /usr/bin"
     system "chmod +x /usr/bin/jsh"
   end
 
