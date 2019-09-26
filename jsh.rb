@@ -8,8 +8,8 @@ class Jsh < Formula
   # depends_on "cmake" => :build
 
   def install
-    system "mv ./jsh /usr/bin"
-    system "chmod +x /usr/bin/jsh"
+    system "sudo mv ./jsh /usr/bin"
+    system "sudo chmod +x /usr/bin/jsh"
   end
 
   test do
