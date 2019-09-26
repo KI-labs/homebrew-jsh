@@ -1,4 +1,4 @@
-class Foo < Formula
+class Jsh < Formula
   desc ""
   homepage ""
   url "https://example.com/foo-0.1.tar.gz"
@@ -8,12 +8,8 @@ class Foo < Formula
 
   def install
     # ENV.deparallelize
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
-    # system "cmake", ".", *std_cmake_args
-    system "make", "install"
+    system "sudo mv ./ki-hacks-jsh/jsh /usr/bin"
+    system "chmod +x /usr/bin/jsh"
   end
 
   test do
