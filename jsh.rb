@@ -6,7 +6,6 @@ class Jsh < Formula
   # depends_on "cmake" => :build
 
   def install
-    # ENV.deparallelize
     system "sudo mv ./ki-hacks-jsh/jsh /usr/bin"
     system "chmod +x /usr/bin/jsh"
   end
