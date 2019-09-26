@@ -1,7 +1,7 @@
 class Jsh < Formula
   desc ""
   homepage ""
-  url "https://github.com/KI-labs/ki-hacks-jsh/archive/release.tar.gz"
+  url "https://codeload.github.com/KI-labs/ki-hacks-jsh/tar.gz/release"
   version "0.1.0"
 
   def install
