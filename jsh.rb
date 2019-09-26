@@ -1,6 +1,7 @@
 class Jsh < Formula
   desc ""
   homepage ""
+  url "https://github.com/KI-labs/ki-hacks-jsh/archive/release.tar.gz"
 
   # depends_on "cmake" => :build
 
