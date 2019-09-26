@@ -8,8 +8,6 @@ class Jsh < Formula
   # depends_on "cmake" => :build
 
   def install
-    system "ls"
-    system "pwd"
     system "mv ./jsh /usr/bin"
     system "chmod +x /usr/bin/jsh"
   end
