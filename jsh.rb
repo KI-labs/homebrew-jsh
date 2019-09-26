@@ -9,6 +9,7 @@ class Jsh < Formula
 
   def install
     system "ls"
+    system "pwd"
     system "mv #{prefix}/jsh /usr/bin"
     system "chmod +x /usr/bin/jsh"
   end
